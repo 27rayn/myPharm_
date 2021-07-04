@@ -152,3 +152,8 @@ a:hover {
 .btn-outline-primary:focus {
 	box-shadow: none !important;
 }
+.card-img-top {
+	height: 40vh;
+	width: 100%;
+	object-fit: cover;
+}

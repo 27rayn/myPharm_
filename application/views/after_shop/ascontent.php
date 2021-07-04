@@ -107,7 +107,7 @@
                 <span class="fa fa-star unchecked"></span><br />
                 <button class="shop btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to cart" type="submit"><i class="bi bi-cart3" style="font-size: 17px;"></i></button>
                 <button type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Add to wishlist" class="wishlist btn btn-outline-primary mt-3"><span class="iconify" data-inline="false" data-icon="carbon:favorite" style="font-size: 20px; margin: 1px;"></span></button>
-                <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="details.html" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;"></span></a>
+                <a type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="View details" href="<?= base_url('detail'); ?>" class="view btn btn-outline-primary mt-3"><span class="iconify" data-icon="bi:eye" data-inline="false" style="font-size: 20px; margin: 1px; align-self: center;"></span></a>
               </div>
             </div>
           </div>
