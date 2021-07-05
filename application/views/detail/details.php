@@ -348,10 +348,88 @@
                 <button class="btn-like" type="button"><i class="bi-hand-thumbs-down"></i>0</button>
               </div>
             </div> 
+             <!-- Non-Collapsed Review end -->
+            <!-- Collapsed Review start -->
+            <div class="collapse" id="reviewcollapse">
+              <div class="product-review pb-4 mb-4 border-bottom">
+                <div class="d-flex mb-3">
+                  <div class="d-flex align-items-center me-4 pe-2">
+                    <img class="rounded-circle" width="50" src="<?= base_url('assets'); ?>/img/1500-Foto04.jpg" alt="">
+                    <div class="ps-3">
+                      <h6 class="fs-sm mb-0" >Tyler Roe</h6>
+                      <span class="fs-ms text-muted"> June 19, 2021</span>
+                    </div>
+                  </div>
+                  <div class="star-rating">
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star"></i>
+                    <i class="star-rating-icon bi-star"></i>
+                    <div class="fs-ms text-muted">Test</div>
+                  </div>
+                </div>
+                <p class="fs-md" >Arcu cursus vitae congue mauris rhoncus aenean vel.</p>
+                <div class="text-nowrap">
+                  <button class="btn-like" type="button"><i class="bi-hand-thumbs-up"></i>3</button>
+                  <button class="btn-like" type="button"><i class="bi-hand-thumbs-down"></i>0</button>
+                </div>
+              </div> 
+              <div class="product-review pb-4 mb-4 border-bottom">
+                <div class="d-flex mb-3">
+                  <div class="d-flex align-items-center me-4 pe-2">
+                    <img class="rounded-circle" width="50" src="<?= base_url('assets'); ?>/img/1500-Foto05.jpg" alt="">
+                    <div class="ps-3">
+                      <h6 class="fs-sm mb-0" >Kim Nuwu</h6>
+                      <span class="fs-ms text-muted"> March 24, 2021</span>
+                    </div>
+                  </div>
+                  <div class="star-rating">
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star"></i>
+                    <i class="star-rating-icon bi-star"></i>
+                    <div class="fs-ms text-muted">Test</div>
+                  </div>
+                </div>
+                <p class="fs-md" >Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.</p>
+                <div class="text-nowrap">
+                  <button class="btn-like" type="button"><i class="bi-hand-thumbs-up"></i>3</button>
+                  <button class="btn-like" type="button"><i class="bi-hand-thumbs-down"></i>0</button>
+                </div>
+              </div> 
+              <div class="product-review pb-4 mb-4 border-bottom">
+                <div class="d-flex mb-3">
+                  <div class="d-flex align-items-center me-4 pe-2">
+                    <img class="rounded-circle" width="50" src="<?= base_url('assets'); ?>/img/1500-Foto06.jpg" alt="">
+                    <div class="ps-3">
+                      <h6 class="fs-sm mb-0" >Rayn</h6>
+                      <span class="fs-ms text-muted"> February 4, 2021</span>
+                    </div>
+                  </div>
+                  <div class="star-rating">
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star-fill"></i>
+                    <i class="star-rating-icon bi-star"></i>
+                    <i class="star-rating-icon bi-star"></i>
+                    <div class="fs-ms text-muted">Test</div>
+                  </div>
+                </div>
+                <p class="fs-md" >Tempor orci dapibus ultrices in iaculis nunc. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis.</p>
+                <div class="text-nowrap">
+                  <button class="btn-like" type="button"><i class="bi-hand-thumbs-up"></i>3</button>
+                  <button class="btn-like" type="button"><i class="bi-hand-thumbs-down"></i>0</button>
+                </div>
+              </div> 
+            </div>
+
             <div class="text-center">
-              <button class="btn btn-orange-no p-2" type="button">Load more reviews</button>
+              <a class="btn btn-orange-no p-2" role="button" data-bs-toggle="collapse" href="#reviewcollapse" >Load more reviews</a>
             </div>
           </div>
+          <!-- Collapsed End -->
           <div class="col-lg-5 px-3 col-md-5 mt-2  mt-md-0 pt-md-0">
             <div class="bg-light p-3 rounded-3">
               <h3 class="h4 mb-4 pt-2">Write a review</h3>
